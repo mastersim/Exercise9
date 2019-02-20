@@ -56,9 +56,6 @@
 }
 
 .site-description{
-	align-self:center;
-}
-
-.site-title{
-	text-transform: uppercase;
+    align-self:center;
+    font-style:italic;
 }
