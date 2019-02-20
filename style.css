@@ -42,7 +42,8 @@
 }
 
 .site-title{
-	font-size: 500%;
+    font-size: 500%;
+    text-transform: uppercase;
 }
 
 .site-branding {
@@ -56,4 +57,8 @@
 
 .site-description{
 	align-self:center;
+}
+
+.site-title{
+	text-transform: uppercase;
 }
