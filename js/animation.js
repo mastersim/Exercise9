@@ -5,7 +5,11 @@ window.addEventListener('load', function(){
    /* let element = document.getElementsByClassName('entry-title');
     element.classList.add("mystyle");*/
 
-    console.log(document.getElementsByClassName('entry-title'));
+   let elmtitre = document.querySelector('.site-branding .site-title');
+    elmtitre.classList.add('boutonfade');
+
+    let elmstitre = document.querySelector('.site-branding .site-description');
+    elmstitre.classList.add('translation');
     //.classList.add("barre");
 
 })

@@ -30,20 +30,3 @@
 	font-size:280%;	
 }
 
-
-
-.site-title{
-	animation: fade 1s;
-	background-color: black;
-}
-
-@keyframes fade {
-
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-
-    }
-}

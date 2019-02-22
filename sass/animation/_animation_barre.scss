@@ -1,25 +1,18 @@
-.entry-title:before{
-	animation: barre 5s infinite;	
+
+.translation{
+    animation: translation 1s infinite;
 }
 
-@keyframes barre{
-	from{
-		width: 5%;
-	}
-	25%{
-		width: 25%;
+@keyframes translation {
+
+    from{
+        transform : translateX(-50px);
 	}
 	50%{
-		width: 15%;
-
+        transform : translateX(50px);
 	}
+    to{
+        transform : translateX(-50px);
 
-	75%{
-		width: 25%;
-
-	}
-
-	to{
-		width: 5%;
-	}
+    }
 }
