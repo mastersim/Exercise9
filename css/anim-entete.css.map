@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,aAAa;AAEb,aAAa",
+    "sources": [
+        "../animation/anim-entete.scss"
+    ],
+    "names": [],
+    "file": "anim-entete.css"
+}

@@ -1,0 +1,31 @@
+
+.site-branding-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin: 0;
+	height:60vh;
+}
+
+.site-title{
+    font-size: 500%;
+    text-transform: uppercase;
+}
+
+.site-branding {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-content:center;
+	flex-wrap:wrap;
+	height: 35vh;
+}
+
+.site-description{
+    align-self:center;
+    font-style:italic;
+}
+
+.entry-title{
+	font-size:280%;	
+}
