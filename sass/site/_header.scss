@@ -1,0 +1,11 @@
+#main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20%;
+}
+
+#main header{
+    position: absolute;
+    top: 65%;
+    left: -11%;
+}

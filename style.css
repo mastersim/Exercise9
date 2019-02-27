@@ -121,4 +121,18 @@
 }
 
 /*header*/
+#main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 20% 20%;
+      grid-template-rows: 20% 20%;
+}
+
+#main header {
+  position: absolute;
+  top: 65%;
+  left: -11%;
+}
 /*# sourceMappingURL=style.css.map */
