@@ -131,7 +131,7 @@
 
 /*header*/
 @media only screen and (min-width: 600px) {
-  #main {
+  .archive #content #section #primary #main {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
@@ -142,7 +142,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #main {
+  .archive #content #main {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 33% 33% 33%;
@@ -153,10 +153,10 @@
 }
 
 @media only screen and (min-width: 1168px) {
-  .entry-title {
+  .archive #content .entry-title {
     font-size: 120%;
   }
-  #main {
+  .archive #main {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 25% 25% 25% 25%;
@@ -164,15 +164,24 @@
     -ms-grid-rows: 30% 30% 30% 30%;
         grid-template-rows: 30% 30% 30% 30%;
   }
-  #main header {
+  .archive #main header {
     position: absolute;
     top: 70%;
     left: -13%;
   }
-  .navigation {
+  .archive .navigation {
     position: absolute;
     top: 130%;
     left: 65%;
   }
+}
+
+.post-template-default #content #section #primary #main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 30% 30%;
+      grid-template-rows: 30% 30%;
 }
 /*# sourceMappingURL=style.css.map */
