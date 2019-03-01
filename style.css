@@ -130,14 +130,38 @@
 }
 
 /*header*/
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
 @media only screen and (min-width: 600px) {
   .archive #content #section #primary #main {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 30% 30%;
-        grid-template-rows: 30% 30%;
+    -ms-grid-rows: 15% 15%;
+        grid-template-rows: 15% 15%;
   }
 }
 
@@ -147,8 +171,8 @@
     display: grid;
     -ms-grid-columns: 33% 33% 33%;
         grid-template-columns: 33% 33% 33%;
-    -ms-grid-rows: 30% 30% 30%;
-        grid-template-rows: 30% 30% 30%;
+    -ms-grid-rows: 15% 15% 15%;
+        grid-template-rows: 15% 15% 15%;
   }
 }
 
@@ -161,8 +185,8 @@
     display: grid;
     -ms-grid-columns: 25% 25% 25% 25%;
         grid-template-columns: 25% 25% 25% 25%;
-    -ms-grid-rows: 30% 30% 30% 30%;
-        grid-template-rows: 30% 30% 30% 30%;
+    -ms-grid-rows: 15% 15% 15% 15%;
+        grid-template-rows: 15% 15% 15% 15%;
   }
   .archive #main header {
     position: absolute;
