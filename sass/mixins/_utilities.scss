@@ -2,6 +2,19 @@
 @mixin media( $res ) {
 	@if mobile == $res {
 		@media only screen and (min-width: $mobile_width) {
+
+			#main{
+				display: grid;
+				grid-template-columns: 100%;
+				grid-template-rows: 20%;
+			}
+			
+			#main header{
+				position: absolute;
+				top: 65%;
+				left: -11%;
+			}
+
 			@content;
 		}
 	}
@@ -14,6 +27,18 @@
 
 	@if desktop == $res {
 		@media only screen and (min-width: $desktop_width) {
+			#main{
+				display: grid;
+				grid-template-columns: 50% 50%;
+				grid-template-rows: 20% 20%;
+			}
+			
+			#main header{
+				position: absolute;
+				top: 65%;
+				left: -11%;
+			}
+
 			@content;
 		}
 	}

@@ -57,10 +57,6 @@
   font-style: italic;
 }
 
-.entry-title {
-  font-size: 280%;
-}
-
 /*animation*/
 .boutonfade a {
   -webkit-animation: boutonfade 1s infinite;
@@ -121,18 +117,28 @@
 }
 
 /*header*/
+.entry-title {
+  font-size: 120%;
+}
+
 #main {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-  -ms-grid-rows: 20% 20%;
-      grid-template-rows: 20% 20%;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 30% 30% 30% 30%;
+      grid-template-rows: 30% 30% 30% 30%;
 }
 
 #main header {
   position: absolute;
-  top: 65%;
-  left: -11%;
+  top: 70%;
+  left: -13%;
+}
+
+.navigation {
+  position: absolute;
+  top: 130%;
+  left: 65%;
 }
 /*# sourceMappingURL=style.css.map */
