@@ -1,22 +1,49 @@
-.entry-title{
-	font-size: 120%;
-}
+@include media (mobile)
+{
+    #main{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 30% 30%;
+    }
 
-#main{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 30% 30% 30% 30%;
-}
-
-#main header {
-    position: absolute;
-    top: 70%;
-    left: -13%;
 }
 
 
-.navigation {
-    position: absolute;
-    top: 130%;
-    left: 65%;
+@include media (tablet)
+{
+    #main{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 30% 30% 30%;
+    }
+
+
+}
+
+@include media (desktop)
+{
+    .entry-title{
+        font-size: 120%;
+    }
+    
+    #main{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 30% 30% 30% 30%;
+    }
+    
+    #main header {
+        position: absolute;
+        top: 70%;
+        left: -13%;
+    }
+    
+    
+    .navigation {
+        position: absolute;
+        top: 130%;
+        left: 65%;
+    }
+
+
 }
